@@ -12,12 +12,16 @@ Practice notebooks:
      - p is now a hyperparameter. If too low, we risk overfitting. Too large, risks underfitting.
      - In general, dropout is applied after the non-linear activation function.  However, when using ReLUs, dropout is applied before the activation for computational efficiency (e.g., when using nn.Sequential).
 
-  4. Initialization
+  4. Dropout: Overfitting
+  5. Initialization
 
      - Erroneous evolvement of DNNs may be related to weight initialization for training.
      - Depending on the activation function techniques such as: normalized weights, Xavier, He help avoiding vanishing or exploding gradients
-  5. Gradient descent with Momentum
-  6. Batch Normalization
+  
+  6. Initialization: Xavier
+  7. Initialization: He
+  8. Gradient descent with Momentum
+  9. Batch Normalization
 
 
 ## Relevant
