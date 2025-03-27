@@ -12,6 +12,7 @@ model.parameters    check param size
 ```
 len(self.hidden)    Number of hidden layers
 model.eval()    Set model into evaluation mode. E.g., dropout is shut-off
+model.state_dict()  Inspect current state of model
 
 nn.Linear	apply a linear transformation to the input
 nn.Sequential   A sequential container. Define NNs

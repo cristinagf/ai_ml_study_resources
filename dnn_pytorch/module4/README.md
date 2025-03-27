@@ -4,18 +4,20 @@ Practice notebooks:
   1. Deep layer Neural Networks (DNN)
   2. DNNs with nn.Module
   3. Dropout: Improve performance of DNNs; preventing overfitting
-   
-    -  Trying combinations of number of layers/neuron can be time-consuming.
-    -  An option is apply Dropout: start with a complex model, then apply regularization (dropout).
-    -  During training, we enable dropout. In evaluation, dropout is disabled.
-    -  Dropout is applied in the forward step. At each iteration, each neuron has a probability p of being shut-off. 
-    -  p is now a hyperparameter. If too low, we risk overfitting. Too large, risks underfitting.
-    -  In general, dropout is applied after the non-linear activation function.  However, when using ReLUs, dropout is applied before the activation for computational efficiency (e.g., when using nn.Sequential).
+  
+     - Trying combinations of number of layers/neuron can be time-consuming.
+     - An option is apply Dropout: start with a complex model, then apply regularization (dropout).
+     - During training, we enable dropout. In evaluation, dropout is disabled.
+     - Dropout is applied in the forward step. At each iteration, each neuron has a probability p of being shut-off. 
+     - p is now a hyperparameter. If too low, we risk overfitting. Too large, risks underfitting.
+     - In general, dropout is applied after the non-linear activation function.  However, when using ReLUs, dropout is applied before the activation for computational efficiency (e.g., when using nn.Sequential).
 
-  4. Dropout for Overfitting prevention: Dropout Regression
-  5. Initialization
-  6. Gradient descent with Momentum
-  7. Batch Normalization
+  4. Initialization
+
+     - Erroneous evolvement of DNNs may be related to weight initialization for training.
+     - Depending on the activation function techniques such as: normalized weights, Xavier, He help avoiding vanishing or exploding gradients
+  5. Gradient descent with Momentum
+  6. Batch Normalization
 
 
 ## Relevant
