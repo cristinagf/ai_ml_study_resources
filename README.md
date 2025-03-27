@@ -6,8 +6,10 @@
 A curated collection of high-quality resources to learn **Artificial Intelligence (AI)** and **Machine Learning (ML)**. This repository aims to include books, courses, research papers, coding exercises, and practical projects to help beginners and advanced learners master AI/ML concepts.
 
 ## 📂 Resources
-├───Deep learning with PyTorch
-└───ML Flashcards
+```
+├───dnn_pytorch (Deep learning with PyTorch)
+└───ml_study (ML Flashcards)
+```
 
 ## 🎯 Purpose
 - Provide a **structured learning path** for AI/ML enthusiasts.  

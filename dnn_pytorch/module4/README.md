@@ -11,9 +11,10 @@ Practice notebooks:
     -  p is now a hyperparameter. If too low, we risk overfitting. Too large, risks underfitting.
     -  In general, dropout is applied after the non-linear activation function.  However, when using ReLUs, dropout is applied before the activation for computational efficiency (e.g., when using nn.Sequential).
 
-  4. Initialization
-  5. Gradient descent with Momentum
-  6. Batch Normalization
+  4. Dropout for Overfitting prevention: Dropout Regression
+  5. Initialization
+  6. Gradient descent with Momentum
+  7. Batch Normalization
 
 
 ## Relevant concepts
