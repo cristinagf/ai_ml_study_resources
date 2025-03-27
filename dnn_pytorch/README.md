@@ -11,7 +11,7 @@ Before following these modules, a basic understanding of Neural Networks is requ
 ## Modules
 
 1. Logistic regression and loss functions
-2. Softmax Regression- 
+2. Softmax Regression
 3. Shallow Neural Networks
 4. Deep Neural Networks
 5. Convolutional Neural Networks

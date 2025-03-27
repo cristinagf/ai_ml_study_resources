@@ -4,6 +4,7 @@ Practice notebooks:
   1. Deep layer Neural Networks (DNN)
   2. DNNs with nn.Module
   3. Dropout: Improve performance of DNNs; preventing overfitting
+   
     -  Trying combinations of number of layers/neuron can be time-consuming.
     -  An option is apply Dropout: start with a complex model, then apply regularization (dropout).
     -  During training, we enable dropout. In evaluation, dropout is disabled.
@@ -17,7 +18,7 @@ Practice notebooks:
   7. Batch Normalization
 
 
-## Relevant concepts
+## Relevant
 - Use of PyTorch `nn.Module` to automate DNN creation. 
   <a href='https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module'>`nn.Module`</a> provides a base class for all neural network modules.
   
