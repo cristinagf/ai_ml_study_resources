@@ -21,6 +21,11 @@ Practice notebooks:
   6. Initialization: Xavier
   7. Initialization: He
   8. Gradient descent with Momentum
+     - Momentum helps us when we're stuck in a saddle point or local minima
+     - Momentum is analogous to momentum in physics. 
+     - Momentum takes into account past gradients so as to smooth down gradient measures. 
+     - Momentum terms should be refined to not stay in local-min or overshoot from global-min.
+     - Key concepts: saddle points, local minima
   9. Batch Normalization
 
 

@@ -31,3 +31,4 @@ train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=200
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 optimizer = torch.optim.SGD(model_Xavier.parameters(), lr=learning_rate)
 optimizer = torch.optim.SGD(model_Uniform.parameters(), lr=learning_rate)
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=m)
