@@ -22,7 +22,7 @@ nn.Dropout(p=p) Dropout method
 nn.CrossEntropyLoss
 
 
-torch.optim.ADAM    ADAM optimizer
+torch.optim.ADAM     Method for stochastic optimization: ADAM
 
 # Data
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=2000, shuffle=True)  Data loader
@@ -32,3 +32,6 @@ optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 optimizer = torch.optim.SGD(model_Xavier.parameters(), lr=learning_rate)
 optimizer = torch.optim.SGD(model_Uniform.parameters(), lr=learning_rate)
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=m)
+
+# Batch normalization
+nn.BatchNorm1d  Apply Batch Normalization over a 2D or 3D input

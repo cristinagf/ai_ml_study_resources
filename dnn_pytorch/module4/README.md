@@ -26,7 +26,8 @@ Practice notebooks:
      - Momentum takes into account past gradients so as to smooth down gradient measures. 
      - Momentum terms should be refined to not stay in local-min or overshoot from global-min.
      - Key concepts: saddle points, local minima
-  9. Batch Normalization
+  9. Effect of Momentum on Neural networks
+  10. Batch Normalization
 
 
 ## Relevant
