@@ -13,6 +13,7 @@ model.parameters    check param size
 len(self.hidden)    Number of hidden layers
 model.eval()    Set model into evaluation mode. E.g., dropout is shut-off
 model.state_dict()  Inspect current state of model
+model.activations   Activation functions
 
 nn.Linear	apply a linear transformation to the input
 nn.Sequential   A sequential container. Define NNs
@@ -36,3 +37,7 @@ optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=m)
 
 # Batch normalization
 nn.BatchNorm1d  Apply Batch Normalization over a 2D or 3D input
+
+# torch
+torch.zeros(M,N)
+torch.ones(M,N)

@@ -4,11 +4,18 @@ Practice notebooks:
   1. Convolutional Neural Networks
   2. Activation functions and Max Polling
   3. Multi-input and output channels
-  4. CNN applied: Example
-  5. CNN applied: Image/ MNIST
-  6. CNN applied: Batch normalization
-  7. Torch vision models
-  8. Graphic processing unit (GPU)
+     - Multiple kernels, applied on each channel
+     - On image, kernels can detect certain features
+     - multi-input can be processed into a single-output
+     - multi-output can be achieved by multiple kernels operating over input-channels
+  4. CNN applied: Image detection
+     - Architecture can include multiple layer/pooling layers 
+     - We'll explore a CNN architecture (combining conv layers with fully-connected layers)
+  5. CNN applied: Batch normalization
+  6. Torch vision models
+  7. Graphic processing unit (GPU)
+
+<img title="CNN Architecture" alt="CNN Architecture" src="./img/cnn.gif">
 
 
 ## Relevant
