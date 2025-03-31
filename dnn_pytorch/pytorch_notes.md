@@ -41,3 +41,18 @@ nn.BatchNorm1d  Apply Batch Normalization over a 2D or 3D input
 # torch
 torch.zeros(M,N)
 torch.ones(M,N)
+torch.tensor([1,2,3])
+
+# pretrained
+model = models.resnet18(pretrained=True)
+needs model.train() for training
+
+When using a pre-trained model in PyTorch, setting requires_grad = False for most layers freezes their weights, preventing them from being updated during backpropagation. This is useful in transfer learning, where we use the pre-trained features and only fine-tune specific layers (e.g., the final classifier
+
+# GPU
+torch.cuda.is_available()
+torch.device('cuda:0')
+torch.tensor([1,2,3]).to(device)  `to` method performs device conversion
+model = CNN(); model.to(device)   Assign model to GPU
+to train first send features and labels to GPU
+feature.to(device)  labels.to(device)

@@ -8,12 +8,13 @@ Practice notebooks:
      - On image, kernels can detect certain features
      - multi-input can be processed into a single-output
      - multi-output can be achieved by multiple kernels operating over input-channels
-  4. CNN applied: Image detection
+  4. CNN applied: Simple classification
      - Architecture can include multiple layer/pooling layers 
      - We'll explore a CNN architecture (combining conv layers with fully-connected layers)
-  5. CNN applied: Batch normalization
-  6. Torch vision models
-  7. Graphic processing unit (GPU)
+  5. CNN applied: Image classification (MNIST)
+  6. CNN applied: Batch normalization
+  <!-- 7. Torch vision models: Pretrained models -->
+  <!-- 8. Graphic processing unit (GPU) -->
 
 <img title="CNN Architecture" alt="CNN Architecture" src="./img/cnn.gif">
 
