@@ -23,6 +23,7 @@ nn.CrossEntropyLoss
 
 
 torch.optim.ADAM     Method for stochastic optimization: ADAM
+torch.relu(Z) | nn.ReLU()
 
 # Data
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=2000, shuffle=True)  Data loader
