@@ -15,9 +15,9 @@ Before following these modules, a basic understanding of Neural Networks is requ
 3. Shallow Neural Networks
 4. Deep Neural Networks
 5. Convolutional Neural Networks
-*. Feature selection
-*. Application: Anomaly detection
-*. Application: Recommendation
+- Application: Anomaly detection
+- Application: Recommendation
+- Feature selection
 
 ### Note
 The organization of this repo and the exercises included in the modules are based on Coursera programs.
