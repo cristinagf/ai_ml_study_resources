@@ -25,9 +25,11 @@ nn.CrossEntropyLoss
 
 torch.optim.ADAM     Method for stochastic optimization: ADAM
 torch.relu(Z) | nn.ReLU()
+F.relu() (which is torch.nn.functional.relu()) is a function. nn.ReLU (torch.nn.ReLU) is a class that simply calls F.relu(). These two ways of packaging the function do the same thing, including when calling .backward().
 
 # Data
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=2000, shuffle=True)  Data loader
+plt.imshow(data_sample[0].numpy().reshape(IMAGE_SIZE, IMAGE_SIZE), cmap='gray')
 
 # Initialization
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
@@ -42,6 +44,7 @@ nn.BatchNorm1d  Apply Batch Normalization over a 2D or 3D input
 torch.zeros(M,N)
 torch.ones(M,N)
 torch.tensor([1,2,3])
+torch.Tensor.size(M)    tensor size
 
 # pretrained
 model = models.resnet18(pretrained=True)
