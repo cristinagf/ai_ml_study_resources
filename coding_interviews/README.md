@@ -108,23 +108,44 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
   
 4. Dynamic Programming: memoization vs tabulation
 5. Sliding windows: 2 pointers
- 
 
-## Solve problems
+## Key concepts
+1. Binary
+  - Use of 0/1
+  - In appearance restrictive, binary can offer versatility of options and powerful data representations
+  - e.g., ASCII binary code mapped characters map, high number of Lock combinations by a small number of binary digits
+  - Boolean Logic: Map 2 inputs to a value e.g., Not (not), Or (|), And (&), Xor (^). 
+   Python: a << n	Bitwise left shift, a >> n	Bitwise right shift
+  - `f'{5:08b}'`  print binary representation of number five
+   or get a string consisting of a binary literal -prefix 0b- with the command bin as in: `bin(5)`.
+  - Convert to integer `int('0b0101', 2)`
+
+2. Integers in python
+  - char   1 byte (-128 +127)
+  - short  2 bytes
+  - int    4 bytes
+  - long   8 bytes
+3. Memory
+  - [Stack and Heap](https://courses.grainger.illinois.edu/cs225/fa2022/resources/stack-heap/)
+4. 
+
+## Interview: Live Coding
 1. Read the problem
-2. Ask questions: clarification
+2. Ask questions: 
+    - state assumptions, get clarification
     - catch edge cases
   
-3. Apply pattern recognition: what kind of problem is this? which data structure/ algorithm does it need?
-    - simplify the problem
-    - walk through a raw solution (speak about time/space complexity/ data, decisions, tradeoffs)
-    - work into an optimal solution
+3. Apply pattern recognition
+    - What kind of problem is this? which data structure/ algorithm does it need?
+    - Simplify the problem
+    - Walk through a raw solution (speak about time/space complexity/ data, decisions, tradeoffs)
+    - Work into an optimal solution
       - https://algo.monster/flowchart
   
-4. implementation path
+4. Implementation path
     - practice patterns
   
-5. debug
+5. Debug
 
 
 ## Practice sources
