@@ -38,7 +38,21 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
    e.g uber userNode distanceEdge - find shortest path
 
 8. sets
-9. maps
+   similar to lists, but keep only unique values
+   behind the scenes there are hash maps, which makes them efficient
+
+9.  heaps
+   specialized data structure modeled like a tree, but behaves as a queue
+   min heap (root on min values), max heap (root on max values)
+   typically don't support operations like delete but identify important items/ return/ queue next item on importance (Restructuring/ degradation in performance)
+   prioritizes
+   e.g., scheduling (packet handling)
+   Heaps are implemented differently in languages but are essentially graphs with extra constraints. 
+   Heaps sort information in order to quickly return min and max values. 
+   They employ a binary approach, and depending on the implementation, a heap will have the largest or smallest value as the root. 
+   Each branch of the heap will follow a sequential pattern. 
+
+10. maps
 
 
 ### Algorithms
