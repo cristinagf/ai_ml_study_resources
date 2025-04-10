@@ -2,6 +2,8 @@
 
 ## Education
 https://coursera.org
+MIT Software Construction course https://web.mit.edu/6.031/www/fa20/
+
 
 ## Python
 https://pytorch.org

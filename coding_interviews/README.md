@@ -45,12 +45,14 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
    specialized data structure modeled like a tree, but behaves as a queue
    min heap (root on min values), max heap (root on max values)
    typically don't support operations like delete but identify important items/ return/ queue next item on importance (Restructuring/ degradation in performance)
-   prioritizes
+   prioritizes - It's a priority queue
    e.g., scheduling (packet handling)
    Heaps are implemented differently in languages but are essentially graphs with extra constraints. 
    Heaps sort information in order to quickly return min and max values. 
    They employ a binary approach, and depending on the implementation, a heap will have the largest or smallest value as the root. 
    Each branch of the heap will follow a sequential pattern. 
+   - Complete, tree, 2 children max/ min-heap: Root is min, e/node <= than parents,
+   - Fill e/level: top-bottom, left-right, except last level (can be incomplete) 
 
 10. maps
 
@@ -110,7 +112,7 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
      - Space complexity  O(log (n)) - better for memory
      - BUT: Works only if optimized!!!
   
-3. greedy
+3. Greedy
     - make best possible choice at e/local decision point
     - NOT for efficiency (just not best gral outcome)
       - easy to implemnt: dfs or bfs to solve it
@@ -120,8 +122,18 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
     - e.g., travelling salesman when n cities (>10)
       - when optimal solution calculation is not possible/ too complex
   
-4. Dynamic Programming: memoization vs tabulation
-5. Sliding windows: 2 pointers
+4. Recursion
+    - Needs: base case (exit) e.g., if n==0: return 1, recursive step e.g., else: call(x-1), and a diminishing strucutre
+    - Useful in hierachical problems: e.g., traverse graph
+  
+5. Dynamic Programming: 
+    - Paradigm that breaks problem into smaller problems
+    - Aims at finding the global optimal solution
+    - memoization: solve subproblem and store its result for further use
+    - e.g. optimal path finding
+    - tabulation
+  
+6. Sliding windows: 2 pointers
 
 ## Key concepts
 1. Binary
@@ -139,15 +151,17 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
   - short  2 bytes
   - int    4 bytes
   - long   8 bytes
+  
 3. Memory
   - [Stack and Heap](https://courses.grainger.illinois.edu/cs225/fa2022/resources/stack-heap/)
 4. 
 
 ## Interview: Live Coding
 1. Read the problem
-2. Ask questions: 
-    - state assumptions, get clarification
-    - catch edge cases
+2. Ask questions:
+    - get clarificatios
+    - state your assumptions e.g., data type, max, mins
+    - catch edge cases!  e.g., no validation of x is required
   
 3. Apply pattern recognition
     - What kind of problem is this? which data structure/ algorithm does it need?
