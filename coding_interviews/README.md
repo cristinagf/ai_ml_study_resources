@@ -154,7 +154,7 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
   
 3. Memory
   - [Stack and Heap](https://courses.grainger.illinois.edu/cs225/fa2022/resources/stack-heap/)
-4. 
+
 
 ## Interview: Live Coding
 1. Read the problem
@@ -168,7 +168,6 @@ https://www.youtube.com/watch?v=cQWr9DFE1ww
     - Simplify the problem
     - Walk through a raw solution (speak about time/space complexity/ data, decisions, tradeoffs)
     - Work into an optimal solution
-      - https://algo.monster/flowchart
   
 4. Implementation path
     - practice patterns
