@@ -9,6 +9,7 @@ Prefix Sums https://www.youtube.com/watch?v=PhgtNY_-CiY&t=84s
   
 ## Python
 https://pytorch.org
+https://www.boot.dev/courses
 
 ## LLMs
 - Survey: RAG for LLMs https://arxiv.org/pdf/2312.10997 (03/2024)
