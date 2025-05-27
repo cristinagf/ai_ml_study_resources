@@ -15,3 +15,8 @@ wheels/
 # data
 */data/
 */*/data/
+
+# models
+*/*/*/*.joblib
+*.joblib
+
