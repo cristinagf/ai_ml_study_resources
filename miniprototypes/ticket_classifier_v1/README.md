@@ -29,4 +29,4 @@ Classifier (Multinomial Naive Bayes): It's a probabilistic model that assumes fe
 curl -X POST http://localhost:5050/predict -H "Content-Type: application/json"  -d "{\"text\": \"Can't login to student portal\"}"
 
 **Run script:**
-bash ./send_request.sh
+bash ./scripts/send_request.sh

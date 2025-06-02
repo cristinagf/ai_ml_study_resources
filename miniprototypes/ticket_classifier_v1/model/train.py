@@ -5,7 +5,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import train_test_split
 import joblib
 
-DATA_PATH = "../data/ticket_data.csv"
+DATA_PATH = "data/ticket_data.csv"
 
 # Load and train
 df = pd.read_csv(DATA_PATH)
@@ -20,5 +20,5 @@ model = make_pipeline(
 )
 model.fit(X, y)
 
-joblib.dump(model, "ticket_model.joblib")
+joblib.dump(model, "./model/ticket_model.joblib")
 print("Model trained and saved.")
