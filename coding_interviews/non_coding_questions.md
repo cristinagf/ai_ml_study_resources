@@ -17,16 +17,15 @@ These questions may address their interest to get to know you better.
     For example, ..."
 
 - **What values are important to you?**
-  
-    - Past experiences
     - Align to those of the organization
+    - Identify past experiences that connect 
     - Showcase your skills
     - Use past-experiences as examples
 
 - **Why do you want to work here?**
     - e.g., "I believe in X and Y (align with company values).
     I have done (Xx and Yy)...
-    Moreover, I could watch some of the videos on the youtube channel and am positive impressed with the culture values
+    Moreover, I have watched some of the videos on the youtube channel and am positive impressed with the culture values
     transmitted on it. XOrganization leads the support of diverse and particularly female representation in all areas. Each team member is given space to grow and 
     their voices are heard, you see that in how your products
     actually reflect care for the needs of their final users...

@@ -1,0 +1,12 @@
+[project]
+name = "ai-ml-study-resources"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "lab>=8.4",
+    "numpy<2",
+    "scikit-surprise>=1.1.4",
+]
